@@ -9,6 +9,8 @@
   "author": "Oskari Nevalainen",
   "license": "ISC",
   "dependencies": {
+    "@slack/web-api": "^5.0.1",
+    "dotenv": "^8.0.0",
     "express": "^4.17.0",
     "typescript": "^3.4.5"
   },
