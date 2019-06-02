@@ -59,13 +59,11 @@ const normalizeNames = (team: string) => {
     return name;
   });
 
-  console.log(normalized);
   return normalized;
 }
 
 const validate = (args) => {
   let terms = args.join(' ');
-  console.log('terms', terms);
   const valid = regex.test(terms)
   return valid;
 }
